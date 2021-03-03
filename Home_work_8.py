@@ -18,7 +18,7 @@ names = "arrow", "williams", "funny", "king"
 domains = "com", "ua", "ru", "net"
 
 def create_email ():
-    new_email = f"{new_name},.,{number},@,{str}, . , {new_domain}"
+    new_email = f"{new_name}.{number}@{str}.{new_domain}"
     return new_email
 
 
@@ -30,4 +30,5 @@ new_name = random.choice (names)
 domains = "com", "ua", "ru", "net"
 new_domain = random.choice (domains)
 
+new_email = create_email()
 print(new_email)
