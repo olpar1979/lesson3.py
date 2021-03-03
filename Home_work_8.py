@@ -18,7 +18,8 @@ names = "arrow", "williams", "funny", "king"
 domains = "com", "ua", "ru", "net"
 
 def create_email ():
-    new_email = create_email.join("new_name",".","number","@","str", "new_domain")
+    new_email = f"{new_name},.,{number},@,{str}, {new_domain}"
+    return new_email
 
 
 number = random.randint (100,999)
